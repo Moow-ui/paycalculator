@@ -2,13 +2,58 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=wage/index.html">
-  <title>2026년 시급 계산기</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>사장님 시급 계산기 - ALBA & BOSS</title>
+  <link rel="canonical" href="https://albanboss.moow-ui.workers.dev/wage/">
+  <meta http-equiv="refresh" content="0; url=https://albanboss.moow-ui.workers.dev/wage/">
   <script>
-    window.location.replace('wage/index.html');
+    (function() {
+      var target = 'https://albanboss.moow-ui.workers.dev/wage/' + window.location.search + window.location.hash;
+      window.location.replace(target);
+    })();
   </script>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", Pretendard, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f8fafc;
+      color: #1e293b;
+      text-align: center;
+      padding: 20px;
+    }
+    .redirect-box {
+      background: #ffffff;
+      padding: 32px 24px;
+      border-radius: 12px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      max-width: 480px;
+      width: 100%;
+    }
+    p {
+      margin: 8px 0;
+      line-height: 1.5;
+    }
+    a {
+      color: #2150D8;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-  <p><a href="wage/index.html">시급 계산기로 이동 중입니다...</a></p>
+  <div class="redirect-box">
+    <p>새 주소로 자동 이동 중입니다...</p>
+    <p>자동으로 이동하지 않으면 <a id="redirect-link" href="https://albanboss.moow-ui.workers.dev/wage/">여기를 눌러 이동하세요</a>.</p>
+  </div>
+  <script>
+    var link = document.getElementById('redirect-link');
+    if (link) {
+      link.href = 'https://albanboss.moow-ui.workers.dev/wage/' + window.location.search + window.location.hash;
+    }
+  </script>
 </body>
 </html>
