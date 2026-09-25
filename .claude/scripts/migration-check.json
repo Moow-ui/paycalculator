@@ -1,0 +1,8 @@
+{
+  "repo": "Moow-ui/paycalculator",
+  "siteUrl": "https://paycalculator.moow-ui.workers.dev",
+  "paths": ["/", "/wage/", "/assets/js/wage-core.js"],
+  "protected": ["README.md", "index.html", "wage", "assets", "scripts"],
+  "workflowsDir": null,
+  "deployIgnoreFile": ".assetsignore"
+}
