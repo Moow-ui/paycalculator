@@ -2,6 +2,7 @@
 
 ## 2026-09-25
 
+- [수정] 옛 주소의 이동 대상을 포털 새 주소 https://albanboss.com/wage/ 로 교체(?값 전달·canonical 포함) — 포털 옛 주소를 거치지 않고 한 번에 이동 (M2)
 - [기능] 개발 도구 Claude Code 연결(규칙·명령어 연결, 사이트 변화 없음) — 짧은 CLAUDE.md, 명령 허락 설정, 배포 제외 목록(.assetsignore)에 CLAUDE.md·.claude/ 추가
 
 ## 2026-09-22
